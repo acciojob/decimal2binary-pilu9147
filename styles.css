@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+/* 	void toBinary(int N) {
+		 StringBuilder sb = new StringBuilder();
+		while(N > 0){
+			int rem = N%2;
+			sb.append(Integer.toString(rem));
+			N = N/2;
+		}
+		sb.reverse();
+      System.out.println(sb.toString());  
+	} */
