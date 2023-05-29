@@ -6,6 +6,7 @@ function threeSum(arr, target) {
 		ans.concat(rem.toString());
 		arr = parseInt(arr/2)
 	}
+	ans.reverse()
 	return ans;
   
 }
