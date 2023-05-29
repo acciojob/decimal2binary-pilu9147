@@ -1,11 +1,21 @@
-/*  your css code here. If applicable */
-/* 	void toBinary(int N) {
-		 StringBuilder sb = new StringBuilder();
-		while(N > 0){
-			int rem = N%2;
-			sb.append(Integer.toString(rem));
-			N = N/2;
-		}
-		sb.reverse();
-      System.out.println(sb.toString());  
-	} */
+/* // function to convert decimal to binary
+function decToBinary(n)
+{
+    // array to store binary number
+    let binaryNum = new Array(32);
+ 
+    // counter for binary array
+    let i = 0;
+    while (n > 0) {
+ 
+        // storing remainder in binary array
+        binaryNum[i] = n % 2;
+        n = Math.floor(n / 2);
+        i++;
+    }
+ 
+    // printing binary array in reverse order
+    for (let j = i - 1; j >= 0; j--)
+        document.write(binaryNum[j]);
+}
+  */
